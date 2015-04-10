@@ -59,6 +59,7 @@
             if ($(item).html().indexOf("Yes") >= 0) // Correct button found
             {
                 simulateClick(item);
+                console.log('clicking the button');
             }
         });
 
