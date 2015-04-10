@@ -58,8 +58,8 @@
         {
             if ($(item).html().indexOf("Yes") >= 0) // Correct button found
             {
-                simulateClick(item);
                 console.log('clicking the button');
+                simulateClick(item);
             }
         });
 
@@ -68,6 +68,7 @@
 
     function init()
     {
+        console.log('checking for prompt');
         addJQuery(checkForPrompt);
     }
 
