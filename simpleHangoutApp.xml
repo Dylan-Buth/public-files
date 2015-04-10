@@ -18,6 +18,8 @@
 		<Require feature="locked-domain" />
 	</ModulePrefs>
 	<Content type="html"><![CDATA[
+	      <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+
 <script>
 (function()
 {
@@ -69,7 +71,6 @@
     }
 
     setTimeout(init, 6000); // Start after 6 seconds
-    alert("Keep Alive Script Running");
 
 })();
 
